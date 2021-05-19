@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLService", "GraphQLService\GraphQLService.csproj", "{EE1737E6-02BB-4161-920B-A3FF8675E046}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_misc", "_misc", "{A65D2506-0ACE-4740-B8FE-4424028E8BEF}"
+ProjectSection(SolutionItems) = preProject
+	docker-compose.yaml = docker-compose.yaml
+	README.md = README.md
+	.gitignore = .gitignore
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE1737E6-02BB-4161-920B-A3FF8675E046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE1737E6-02BB-4161-920B-A3FF8675E046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE1737E6-02BB-4161-920B-A3FF8675E046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE1737E6-02BB-4161-920B-A3FF8675E046}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

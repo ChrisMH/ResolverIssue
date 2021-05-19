@@ -1,0 +1,14 @@
+version: "3.7"
+
+volumes:
+  postgres:
+    
+services:
+  postgres:
+    build: { context: Database, dockerfile: Dockerfile }
+    ports: [ "20202:5432" ]
+    volumes: [ "postgres:/var/lib/postgresql/data"]
+    environment:
+      POSTGRES_PASSWORD: postgres
+    command: [ "postgres", "-c", "log_min_messages=INFO", "-c", "client_min_messages=INFO" ]
+    
